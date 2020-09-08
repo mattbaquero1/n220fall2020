@@ -1,5 +1,5 @@
 let spices = 0;
-function draw(){
+function draw() {
     spices = spices + 1;
     console.log(spices);
 }
