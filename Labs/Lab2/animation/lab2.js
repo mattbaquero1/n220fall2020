@@ -1,5 +1,20 @@
-let spices = 0;
-function draw() {
-    spices = spices + 1;
-    console.log(spices);
+
+
+function setup() {
+  createCanvas(400, 300);
 }
+
+function draw() {
+  background(0, 0, 0);
+
+  
+  if(mouseX > 200) {
+    fill(255, 0, 0);
+  } else {
+      fill(0, 0, 255)
+  }
+  circle(mouseX, mouseY, 30);
+}
+
+
+
