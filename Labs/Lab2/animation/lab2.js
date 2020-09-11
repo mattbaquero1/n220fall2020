@@ -1,4 +1,5 @@
 
+let count = 0
 
 function setup() {
   createCanvas(400, 300);
@@ -6,6 +7,11 @@ function setup() {
 
 function draw() {
   background(0, 0, 0);
+  
+  count = count;
+  console.log(count)
+
+  
 
   
   if(mouseX > 200) {
