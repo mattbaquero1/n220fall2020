@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background(0, 0, 255);
     circle(xPos, yPos, size);
 
     size = size + 1;
