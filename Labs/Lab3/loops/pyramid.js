@@ -9,8 +9,8 @@ function draw() {
     fill(255, 0, 0);
     stroke(255, 255, 255)
 
-    let numRows = density / height;
-    pyramid(numRows);
+    let rows = density / height;
+    pyramid(rows);
 }
 
 function pyramid() {
