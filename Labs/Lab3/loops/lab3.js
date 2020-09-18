@@ -18,12 +18,12 @@ function draw() {
       }
       else if (i % 3 === 0) {
           fill(153, 31, 240);
-          ellipse(x+25, y+25, 50, 50);
+          circle(x+25, y+25, 25);
       }
       else {
 
           fill(0);
-          ellipse(x+25, y+25, 50, 50);
+          circle(x+25, y+25, 25);
       }
   }
 }
