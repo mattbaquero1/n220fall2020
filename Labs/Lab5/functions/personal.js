@@ -20,7 +20,7 @@ function draw() {
 
 function mousePressed() {
   let d = dist(mouseX, mouseY, 400, 400);
-  if (d < 100) {
+  if (d <= 400) {
     r = random(255);
     g = random(255);
     b = random(255);
