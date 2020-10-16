@@ -32,11 +32,10 @@ function setup() {
     createCanvas(400, 400);
 }
 
+
 function draw() {
     background(220);
     myCircle.update();
-
-
 
 
     if (myCircle.x >= 400) {
