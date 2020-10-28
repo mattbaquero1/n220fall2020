@@ -1,6 +1,6 @@
 let txtName = document.getElementById("txtName");
 let dvResult = document.getElementById("dvResult");
-dvResult.innerHTML = "Greeter"
+dvResult.innerHTML = "Password Protected"
 
 
 function sayHello() {
