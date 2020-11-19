@@ -7,6 +7,6 @@ dvSquare.style.height = "100px";
 dvSquare.style.width = "100px";
 
 function increaseSize() {
-    
+    "100px" * 1.1;
 
 }
