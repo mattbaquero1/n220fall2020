@@ -9,11 +9,12 @@ let objects = [
    ];
 
 for ( var i = 0; i < objects.length; i++) {
-    var curObject = objects[i];
-
     var newEl = document.createElement("div");
 
-    newEl.innerHTML = "color: " + curObject.color + " height: " + curObject.height + " width: " + curObject.width;
+    newEl.style.backgroundColor = objects[i].color;
+    newEl.style.height = objects[i].height + "px";
+    newEl.style.width = objects[i].width+ "px";
+
 
     document.body.appendChild(newEl);
 }
