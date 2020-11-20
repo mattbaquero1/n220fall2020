@@ -13,7 +13,7 @@ for ( var i = 0; i < objects.length; i++) {
 
     var newEl = document.createElement("div");
 
-    newEl.innerHTML = "color:" + curObject.color + " height:" + curObject.height + " width:" + curObject.width;
+    newEl.innerHTML = "color: " + curObject.color + " height: " + curObject.height + " width: " + curObject.width;
 
     document.body.appendChild(newEl);
 }
