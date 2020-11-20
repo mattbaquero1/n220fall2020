@@ -12,4 +12,5 @@ function badWordCatcher() {
     
     document.getElementById("wordsFound").innerHTML = foundBadWords.join(", ");
     document.getElementById("wordAmount").innerHTML = foundBadWords.length;
+
     }
