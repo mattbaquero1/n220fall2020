@@ -32,6 +32,7 @@ function main() {
     controls.divoutput3.innerHTML ="Scores"
     document.body.appendChild(controls.divoutput3);
 
+    //creates div textboxes
     controls.divoutput4 = createElement("div", "absolute", 10, 85, 700, 20);
     controls.divoutput4.innerHTML = "Pick your wepon!!"
     document.body.appendChild(controls.divoutput4);
@@ -68,11 +69,11 @@ function main() {
 
 
     
-    //add click listener and call the change color function
+    //add click listener
     controls.myButton.addEventListener("click",game);
-    //add click listener and call the change color function
+    //add click listener
     controls.myButton2.addEventListener("click",game);
-    //add click listener and call the change color function
+    //add click listener
     controls.myButton3.addEventListener("click",game);
 
 
