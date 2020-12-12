@@ -17,7 +17,7 @@ function main() {
     //creates div textboxes
     controls.divoutput = createElement("div", "absolute", 10, 10,700, 20);
     controls.divoutput.style.backgroundColor = "red";
-    controls.divoutput.innerHTML ="Computer Selection"
+    controls.divoutput.innerHTML ="Computer's Selection"
     document.body.appendChild(controls.divoutput);
 
     //creates div textboxes
